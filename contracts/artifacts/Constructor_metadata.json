@@ -12,12 +12,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "a",
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "address",
 						"name": "",
-						"type": "int256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -37,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/8-constructor-modifer-inheritance.sol": "contract1"
+			"contracts/6-constructor.sol": "Constructor"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -51,12 +51,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/8-constructor-modifer-inheritance.sol": {
-			"keccak256": "0xe2c6ad56fd60924b020f799f70758b8ee0b9e33fae4e3ef363344090c12f1458",
+		"contracts/6-constructor.sol": {
+			"keccak256": "0x646c33e30a46f53621bf6718e3acca7d2d74d6359ee36ddbf30a0ca9246a033a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8e60cfbd928359c0d7d827e1c67f995842072f14a0321c3893bdd63ce52d0444",
-				"dweb:/ipfs/QmboSeUoyvK7Mqd1EVDhpPDrJXabyoSKM43YHZRALY3YRx"
+				"bzz-raw://55cb973b46bc01305a22593d877cfa1508b4c79fafdbab7a7476c72d9079ebec",
+				"dweb:/ipfs/QmaSuJsKtypqqJp8fY5LFjxkGAvfibyekezb5Fmt9wF1hr"
 			]
 		}
 	},

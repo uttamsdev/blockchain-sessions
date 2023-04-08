@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.15+commit.e14f2714"
+		"version": "0.8.19+commit.7dd6d404"
 	},
 	"language": "Solidity",
 	"output": {
@@ -55,7 +55,7 @@
 								"type": "uint256"
 							}
 						],
-						"internalType": "struct MyContract.Records[]",
+						"internalType": "struct InsuracneRecord.Records[]",
 						"name": "",
 						"type": "tuple[]"
 					}
@@ -85,7 +85,7 @@
 								"type": "uint256"
 							}
 						],
-						"internalType": "struct MyContract.Records[]",
+						"internalType": "struct InsuracneRecord.Records[]",
 						"name": "",
 						"type": "tuple[]"
 					}
@@ -107,9 +107,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/test.sol": "MyContract"
+			"contracts/12-Insurance-record.sol": "InsuracneRecord"
 		},
-		"evmVersion": "london",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -121,12 +121,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/test.sol": {
-			"keccak256": "0x825cacf6b4a249026aad0ed2161033391a9be94937910cef7788a522d1ddda7a",
+		"contracts/12-Insurance-record.sol": {
+			"keccak256": "0x183311e0a98799a07aeb741aeb96f49df70ee1762c7bb61db17e304fd1f6958c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://931ba5ddf94bc5cee63b394ac59fc61510f8d02ea5f7040b7e3399ce707da5eb",
-				"dweb:/ipfs/QmPYcJo42FoFr3qJjZQwe2jGrJSAPW2Fzw2iqnh6pZzU6L"
+				"bzz-raw://e8d05702422994ab4374c88e236746b4238aa88b8810a36339ebb0c2f11807e7",
+				"dweb:/ipfs/QmdAjejnv4SE6m4gGTnUmbhPKp9eTDbq67MSS1dYubwbng"
 			]
 		}
 	},
